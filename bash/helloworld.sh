@@ -2,4 +2,4 @@
 
 
 echo Hello World!
-exit
+echo "I am process # $$"

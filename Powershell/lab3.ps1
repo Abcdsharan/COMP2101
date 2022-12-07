@@ -1,0 +1,2 @@
+﻿Get-CimInstance -ClassName Win32_NetworkAdapterConfiguration | ? {$_.ipenabled -eq "True" } | #Where {$_.ipenabled -eq "True" } |
+format-table -Autosize Description, Index, IpAddress, IPSubnet, DNSDomain, DNSServerSearchOrder
